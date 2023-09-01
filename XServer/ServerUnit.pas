@@ -13,8 +13,6 @@ type
   TServerContainer = class(TDataModule)
     SparkleHttpSysDispatcher: TSparkleHttpSysDispatcher;
     XDataServer: TXDataServer;
-    XDataConnectionPool: TXDataConnectionPool;
-    AureliusConnection: TAureliusConnection;
   end;
 
 var
